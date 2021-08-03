@@ -66,7 +66,7 @@ df['date'] = df['date'].astype('datetime64')
 
 df = df.set_index('date')
 
-#end of data wranggling 
+#end of data wrangling 
 
 @app.route("/")
 def index(): 
